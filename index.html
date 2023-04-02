@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h2, initial-scale=1.0">
+    <title>Countries</title>
+    <style>
+        .countries {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 30px;
+
+
+        }
+
+        .country {
+            border: 2px solid rgba(85, 113, 235, 0.61);
+            border-radius: 2px;
+            padding: 15px;
+
+        }
+
+        .country img {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Show All Selected Countries</h1>
+    <div id="countries" class="countries">
+
+    </div>
+    <script src="country.js"></script>
+</body>
+
+</html>
